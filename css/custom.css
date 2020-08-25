@@ -1,0 +1,226 @@
+/* This is the style for the overall table. FInd the style for the rows under index.php */
+
+html, body { height: 100%; }
+
+body {
+	background: #f2f5f6; /* Old browsers */
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 0px:
+}
+
+#content {
+	/* ENTIRE GRID  */
+	width: 100%; /* 720px */
+	margin: 20 auto;
+	position: relative;
+	/* min-height: 500px; */
+	height: 100%;
+	padding-bottom:80px; /* Height of the footer element */
+	padding:5px;
+	white-space: pre-wrap;
+	padding: 10px;
+}
+
+#inner {
+	position: relative;
+	text-align: left;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+
+.col1-label {
+	width: 144px;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+
+.col2-select {
+	width: 260px;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+}
+.clear { clear: both; }
+ 
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -60px;
+}
+	  
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+	padding-top: 60px;
+}
+.container .credit {
+	margin: 20px 0;
+}
+
+code {
+	font-size: 80%;
+}
+
+p.text-muted {
+    text-align: center;
+    display: inline-block;
+}
+
+hr {
+	-moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+	border-style: solid none;
+	border-width: 1px 0;
+}
+
+
+.qr-btn {
+	width: 180px;
+	margin-top:8px;
+}
+.qr-toggle {
+	width: 40px;
+	margin-top:8px;
+}
+
+.col2-select, .btn-group {
+	margin-top:8px;
+}
+.col1-label {
+	margin-top:12px;
+	text-align: right;
+}
+
+.nav-default {
+	position: fixed;
+	height: 52px;
+	width: 100%;
+	top: 0;
+    z-index: 10;
+}
+
+.nav-default-inner {
+	height: 52px;
+	width: 96%;
+	top: 0;
+	vertical-align: middle;
+    z-index: 10;
+	filter: none !important;
+	box-shadow: 0 6px 5px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 6px 5px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 6px 5px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	border-color: #080808;
+	background-color: #222;	
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	margin: 0 auto;
+}
+
+#rid {
+	height: 25px;
+	margin-top: 13px;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+	padding-top:30px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+#af_label {
+	float:right;
+	height: 25px;
+	margin-top: 13px;
+	padding-right: 20px;
+	line-height: 20px;
+	color: #CCC;
+	
+}
+
+/* Style for inside the table - MCFERRIN/LASKY */
+.odd {
+	background-color: #dedede;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.even {
+	background-color: #ffffff;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.timing {
+	background-color: #fffc93;
+	white-space: pre-wrap;
+	border-color: #000000;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.float {
+	background-color: #ac3300;
+	white-space: pre-wrap;
+	border-color: #000000;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.break {
+	background-color: #9a5fff;
+	white-space: pre-wrap;
+	border-color: #000000;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.rundown th{
+	white-space: pre-wrap;
+	padding: 5px;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.rundown td{
+	white-space: pre-wrap;
+	padding: 5px;
+	border: 1px solid grey;
+	text-align: left;
+	font-size: 14px;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.title{
+	font-size: 25px;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-color: #000000
+}
+
+.objects td{
+white-space: pre-wrap;
+	padding: 5px;
+	border: none;
+	text-align: left;
+	font-size: 14px;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}

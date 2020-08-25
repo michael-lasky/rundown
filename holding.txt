@@ -1,0 +1,40 @@
+				<nav class="navbar navbar-default navbar-inverse" role="navigation">
+					<div class="container-fluid" id="navfluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="./"><img src="opuslogo.png" style="width: 40px; top: 40px; margin-top:-10px;"></a>
+						</div>
+						<div class="collapse navbar-collapse" id="navigationbar">
+							<ul class="nav navbar-nav">
+								<select id="rid">
+								  <option>Please choose</option>
+								</select>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+					</nav>
+					
+					
+					
+					
+css
+
+.navselectedrundown {
+	position: fixed;
+    top: 52px;
+    width: 100%;
+    padding: 3px;
+    z-index: 50;
+    filter: none !important;
+	box-shadow: 0 6px 5px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 6px 5px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 6px 5px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	background-color: #2864A0;
+	color: #FFFFFF;
+	}
